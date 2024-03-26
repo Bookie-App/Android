@@ -242,7 +242,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fotoBookie" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/btnMg"
         android:layout_width="30dp"
         android:layout_height="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/disponible"
@@ -250,36 +250,24 @@
         app:layout_constraintTop_toTopOf="@+id/disponible"
         app:srcCompat="@drawable/mg_vacio" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
-        android:backgroundTint="#9D5836"
-        android:fontFamily="@font/capriola"
-        android:text="Intercambio"
-        android:textColor="#F8DABC"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/btnIntercambio"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/filtro" />
+        app:layout_constraintStart_toStartOf="@+id/filtro"
+        app:layout_constraintTop_toBottomOf="@+id/filtro"
+        app:srcCompat="@drawable/btn1" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:backgroundTint="#F8DABC"
-        android:fontFamily="@font/capriola"
-        android:text="Escribir reseña"
-        android:textColor="#9D5836"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/button3"
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/btnIntercambio"
+        app:srcCompat="@drawable/btn2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
