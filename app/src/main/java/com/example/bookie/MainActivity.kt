@@ -18,6 +18,5 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        Toast.makeText(this, "Prue-ba", Toast.LENGTH_SHORT).show()
     }
 }
