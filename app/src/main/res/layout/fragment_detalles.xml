@@ -250,6 +250,37 @@
         app:layout_constraintTop_toTopOf="@+id/disponible"
         app:srcCompat="@drawable/mg_vacio" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#9D5836"
+        android:fontFamily="@font/capriola"
+        android:text="Intercambio"
+        android:textColor="#F8DABC"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filtro" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#F8DABC"
+        android:fontFamily="@font/capriola"
+        android:text="Escribir reseña"
+        android:textColor="#9D5836"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
