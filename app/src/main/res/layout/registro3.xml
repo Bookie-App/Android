@@ -38,7 +38,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_visto"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginStart="60dp"
@@ -82,7 +82,7 @@
         android:layout_marginEnd="100dp"
         android:backgroundTint="#B56161"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/img_visto"
         app:srcCompat="@drawable/lapiz" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
