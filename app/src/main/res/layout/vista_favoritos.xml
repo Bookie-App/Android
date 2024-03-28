@@ -17,9 +17,11 @@
 
             <ImageView
                 android:id="@+id/imagenLibroFav"
-                android:layout_width="0dp"
-                android:layout_height="250dp"
-                android:adjustViewBounds="true"
+                android:layout_width="230dp"
+                android:layout_height="300dp"
+                android:background="@drawable/rounded_corners"
+                android:clipToOutline="true"
+                android:scaleType="fitXY"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -29,7 +31,7 @@
                 android:id="@+id/tituloLibroFav"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="40dp"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/capriola"
                 android:text="TextView"
